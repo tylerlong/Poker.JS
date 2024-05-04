@@ -1,10 +1,13 @@
 {
-  "name": "poker.js",
+  "name": "poker-images",
   "version": "0.1.0",
   "license": "MIT",
+  "main": "build/poker.js",
+  "types": "build/poker.d.ts",
   "scripts": {
     "lint": "tsc --noEmit ./src/*.ts && eslint --fix '**/*.{ts,tsx,js,jsx}' && prettier --write . && sort-package-json",
-    "serve": "rm -rf .parcel-cache && parcel src/index.html --dist-dir docs"
+    "serve": "rm -rf .parcel-cache && parcel src/index.html --dist-dir docs",
+    "prepublishOnly": "tsc --declaration"
   },
   "devDependencies": {
     "@types/node": "^20.12.8",

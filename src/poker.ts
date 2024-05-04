@@ -477,7 +477,7 @@ const Poker = {
    * @example
    *     document.body.appendChild(Poker.getCardImage(100, 'h', 'Q'));
    */
-  getCardImage: function (size, suit, point) {
+  getCardImage: function (size: number, suit, point) {
     const image = document.createElement('img');
     image.src = this.getCardData(size, suit, point);
     return image;
@@ -519,7 +519,7 @@ const Poker = {
    * @example
    *     var imgData = Poker.getCardData(100, 'h', 'Q');
    */
-  getCardData: function (size, suit, point) {
+  getCardData: function (size: number, suit, point) {
     return this.getCardCanvas(size, suit, point).toDataURL();
   },
 

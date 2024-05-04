@@ -22,3 +22,5 @@ document.body.appendChild(Poker.getBackImage(256, '#A9566C', '#71273A'));
 document.body.appendChild(Poker.getBackImage(256, '#8BA23C', '#3C451B'));
 document.body.appendChild(Poker.getBackImage(256, '#5C72C2', '#2B4299'));
 document.body.appendChild(Poker.getBackImage(256, '#90928C', '#535550'));
+
+console.log(Poker.getCardData(256, 'hearts', 'Q'));

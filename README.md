@@ -1,11 +1,13 @@
 # About this forked version
 
+Source code: https://github.com/tylerlong/poker-images
+
 This forked version provides similar functionality to the original Poker.JS, but with a few changes:
 
 - The original Poker.JS was written in ES5, this version is written in TypeScript.
 - The original Poker.JS was published to bower, this version is published to npm.
 - The original Poker.JS add a global variable `window.Poker`, this version doesn't add any global variables.
-  - You will need to `import Poker from 'poker.js'` to use the library.
+  - You will need to `import Poker from 'poker-images'` to use the library.
 
 A demo page with all the cards: https://tairraos.cloud4v.org/Poker.JS/demo/sprite.html
 
