@@ -11,3 +11,5 @@
 *.bak
 *.tmp
 node_modules/
+.parcel-cache/
+docs/
